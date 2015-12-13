@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'tsuno'
+
+Tsuno::Client.new(
+  ARGV.map {|file| File.read(file)}
+)
+
