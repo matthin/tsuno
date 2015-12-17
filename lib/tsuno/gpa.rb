@@ -1,6 +1,7 @@
 module Tsuno
+  # Converts grades onto the 4.0 GPA scale.
   # @!attribute [r] result
-  #   @return [Float] The average of every course on the 4.0 scale
+  #   @retun [Float] The average of every course on the 4.0 scale
   class GPA
     attr_reader(:result)
 

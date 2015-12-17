@@ -3,6 +3,8 @@ require 'tsuno/gpa'
 require 'yaml'
 
 module Tsuno
+  # The main entry into the tsuno library. Might be better to move into the
+  # bin script, but whatever.
   class Client
     # Initializes Client
     #

@@ -1,6 +1,7 @@
 require 'tsuno/activity'
 
 module Tsuno
+  # Represents an individual course taken within a semester.
   # @!attribute [r] grade
   #   @return [Float] The final grade
   # @!attribute [r] name

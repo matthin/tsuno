@@ -1,4 +1,11 @@
 module Tsuno
+  # Represents a specific weighted activity within a course.
+  # @!attribute [r] grade
+  #   @return [Float] The final grade
+  # @!attribute [r] weight
+  #   @return [String] The weight of the activity. Ex. 0.4
+  # @!attribute [r] name
+  #   @return [String] The activity name. Ex. Final Exam
   class Activity
     attr_reader(:grade, :weight, :name)
 
